@@ -1,9 +1,8 @@
 RailsSample::Application.routes.draw do
-  get "home/home"
-
-  get "home/help"
-
-  get "home/about"
+  root to: 'home#home'
+  match '/help', to: "home#help"
+  match '/about', to: "home#about"
+  match '/contact', to: "home#contact"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
