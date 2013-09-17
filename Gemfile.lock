@@ -63,11 +63,8 @@ GEM
     mime-types (1.25)
     multi_json (1.7.9)
     mysql (2.9.1)
-<<<<<<< HEAD
     mysql (2.9.1-x86-mingw32)
     mysql2 (0.3.13)
-=======
->>>>>>> bca9300a106fa1c5e47ff788b5954ba17ddf575a
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
