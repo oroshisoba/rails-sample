@@ -1,6 +1,24 @@
 @import "bootstrap";
+
+
+body {
+  padding-top: 60px;
+}
+
+
 @import "bootstrap-responsive";
 
+/* responsive */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+}
 
 /* mixins, variables, etc. */
 
@@ -16,10 +34,6 @@ $grayMediumLight: #eaeaea;
 
 html {
   overflow-y: scroll;
-}
-
-body {
-  padding-top: 60px;
 }
 
 section {
