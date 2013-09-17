@@ -22,7 +22,14 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
+<<<<<<< HEAD
   database: rails-first-step
+=======
+  database: rails-sample
+  username: root
+  password: 
+  host: localhost
+>>>>>>> bca9300a106fa1c5e47ff788b5954ba17ddf575a
   pool: 5
   username: root
   password:
